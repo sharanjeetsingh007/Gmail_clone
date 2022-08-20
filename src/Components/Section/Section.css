@@ -1,0 +1,59 @@
+.section {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 2px;
+  padding: 22px;
+  min-width: 200px;
+  cursor: pointer;
+  border-width: 0 !important;
+  color: gray;
+}
+
+.section:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  color: black;
+}
+
+.section--selected1 {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  border-bottom: 3px solid red;
+  color: red;
+}
+.section--selected1:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  color: red;
+}
+
+.section--selected2 {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  border-bottom: 3px solid #1a72e9;
+  color: #1a72e9;
+  /* border-bottom-left-radius: 10px; */
+}
+
+.section--selected2:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  color: #1a72e9;
+}
+
+.section--selected3 {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  border-bottom: 3px solid green;
+  color: green;
+}
+
+.section--selected3:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+  color: green;
+}
+
+.section > h4 {
+  margin-left: 10px;
+}

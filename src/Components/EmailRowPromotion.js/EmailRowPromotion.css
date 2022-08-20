@@ -1,0 +1,67 @@
+.emailRowPromotion {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.emailRowPromotion:last-child {
+  margin-bottom: 10px;
+  /* border: 5px solid rebeccapurple; */
+}
+
+.emailRowPromotion:hover {
+  border-top: 1px solid whitesmoke;
+  box-shadow: 0px 4px 4px -2px rgba(0, 0, 0, 0.24);
+}
+.emailRow__title {
+  font-size: 13px;
+  flex: 0.3;
+}
+
+.emailRow__title > h3 {
+  font-weight: 450 !important;
+  text-overflow: ellipsis;
+}
+
+.emailRow__message {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  flex: 0.8;
+
+  /* border: 1px solid red; */
+  /* margin-left: 40px; */
+}
+
+.emailRow__message > h4 {
+  /* border: 1px solid purple; */
+  width: 400px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: 400;
+}
+
+.emailRow__options {
+  display: flex;
+}
+
+.emailRow__time {
+  width: 65px;
+  /* border: 2px solid green; */
+}
+.emailRow__time > p {
+  padding-right: 15px;
+  font-size: 9px;
+  font-weight: bold;
+}
+
+.emailRow__description {
+  font-weight: 400;
+  color: gray;
+}
